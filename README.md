@@ -1,6 +1,6 @@
 # QR Code Generator
 
-![QR Code Generator](https://your-image-url.com)
+
 
 ## Introduction
 
