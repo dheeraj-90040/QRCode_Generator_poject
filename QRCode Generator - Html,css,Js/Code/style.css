@@ -1,0 +1,111 @@
+/* -- google Imported Font's Here  */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: var(--font1);
+    color: var(--text);
+}
+
+/* - to implement :root {
+     --anyName : value of your wish ..
+
+     ?? to use it  > var(--backgroundcolr)
+}
+ */
+:root {
+    --backgroundcolor: #DBDFEA;
+    --card_color: #ACB1D6;
+    --light: #ffb668;
+    --text: #2C3333;
+    --font1: 'Concert One', cursive;
+    --font2: 'Lobster Two', cursive;
+
+
+}
+
+body {
+    /* background-color: var(--backgroundcolor); */
+    background-image: url(/Code/imgs/bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+.container {
+    width: 400px;
+    max-height: 550px;
+    padding: 25px 35px;
+    border-radius: 5px;
+    backdrop-filter: blur(40px);
+
+}
+
+
+
+
+.container p {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    color: white;
+    margin-left: -10px;
+}
+
+.container input {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+
+}
+
+.img_box {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    max-height: 300px;
+    overflow: hidden;
+    max-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container #btn {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0px;
+    margin: 20px 0px;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    background-color: var(--light);
+    text-align: center;
+    cursor: pointer;
+    transition: box-shadow 500ms ease-in-out;
+}
+
+.container #btn:hover{
+    box-shadow: 0 0 5px lightsalmon;
+}
+
+
